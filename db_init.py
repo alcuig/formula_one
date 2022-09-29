@@ -52,7 +52,7 @@ def create_table_f1_data(conn, cur, table_schema):
 def create_table_drivers(conn, cur, table_schema):
     """
     Creates table to store information about each driver : forename, surname.
-    Compound primar key composed of driver forename and surname.
+    Compound primary key composed of driver forename and surname.
     Drivers_pii table depends on it.
 
     """
