@@ -53,7 +53,6 @@ join (
     """
     cur.execute(drop_table)
     cur.execute(create_table)
-    # conn.commit()
     cur.execute(insert_statement)
 
     conn.commit()
@@ -123,7 +122,6 @@ def sum_points_per_nationality():
     """
     cur.execute(drop_table)
     cur.execute(create_table)
-    # conn.commit()
     cur.execute(insert_statement)
 
     conn.commit()
@@ -165,18 +163,6 @@ def sum_points_per_driver():
     conn.commit()
 
     print(f"Step 3/3 complete. Table {table_schema}.{table_name} filled with SQL query result. ")
-
-
-# select t.* 
-# from analytics.sum_points_per_driver t 
-# join (
-#     select driver_nationality, max(sum_of_points) as max_points 
-#     from analytics.sum_points_per_driver 
-#     group by 1
-# ) mt 
-#     on t.sum_of_points = mt.max_points 
-#     and t.driver_nationality = mt.driver_nationality 
-# order by t.driver_nationality;
 
 
 count_french_and_american_drivers()
