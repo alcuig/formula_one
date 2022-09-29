@@ -7,7 +7,7 @@ import sys
 
 def merged_winner_fastest_lap_records():
     """
-    Returns list of dictionaries 'merged_datasets' combining data from dataset containign fastest laptime and driver who performed fastest laptime with dataset containing name of winning dirver per race.
+    Returns list of dictionaries 'merged_datasets' combining data from dataset containing fastest laptime and driver who performed fastest laptime with dataset containing name of winning dirver per race.
 
     Achieves this by:
     - Cycling through race id set 
