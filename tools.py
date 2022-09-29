@@ -1,14 +1,6 @@
 import csv
 import pprint
 
-    # - [ ]  modify the read_data() function. 
-    # Split it into 2 functions. 1 will read any csv file, given as parameter the file path.  
-    # It should return two objects. 1 being the list of headers and the other, a list of tuples. 
-    # The other function receives a list of headers and a list of tuples and transforms 
-    # the list of tuples and the header list into a list of dictionaries. 
-    # It should return the list of dictionaries. 
-
-
 def read_data():
     """
     Reads data from source .csv file for formula 1 data ("drivers.csv") and converts into a list of dictionaries.
