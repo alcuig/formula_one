@@ -9,8 +9,9 @@ Objectives:
 
 Project outline: 
 - Downloaded formula 1 dataset from Kaggle website as csv file.
-- Broke down data into smaller datasets, linking them with PK/FK relationships.
-- Carry out analytics on table data ('analytics' file).
+- Read data in Python, wrangled the data. 
+- Loaded into a Postgres database.
+- Carried out analytics on table data ('analytics' file).
 
 Tools used:
 - Kaggle website dataset: Kaggle is an online community platform for data scientists with readily available datasets.
